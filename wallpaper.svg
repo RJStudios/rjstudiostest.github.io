@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 1080">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        stroke-width: 0px;
+      }
+
+      .cls-1, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #0b0b0c;
+      }
+
+      .cls-3 {
+        filter: url(#outer-glow-1);
+      }
+
+      .cls-4 {
+        filter: url(#outer-glow-2);
+      }
+    </style>
+    <filter id="outer-glow-1" filterUnits="userSpaceOnUse">
+      <feOffset dx="0" dy="0"/>
+      <feGaussianBlur result="blur" stdDeviation="21.05"/>
+      <feFlood flood-color="#cfc" flood-opacity=".75"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="outer-glow-2" filterUnits="userSpaceOnUse">
+      <feOffset dx="0" dy="0"/>
+      <feGaussianBlur result="blur-2" stdDeviation="21.29"/>
+      <feFlood flood-color="#d3abef" flood-opacity=".75"/>
+      <feComposite in2="blur-2" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <rect class="cls-2" x="0" width="1920" height="1080"/>
+  <path class="cls-3" d="M216.88,438.8l-18.51-122.28h0c-10.22-67.54,36.24-130.57,103.78-140.79h0l122.28-18.51,18.51,122.28-122.28,18.51,18.51,122.28-122.28,18.51Z"/>
+  <g class="cls-4">
+    <circle class="cls-1" cx="1625.7" cy="569.7" r="62.54" transform="translate(1039.3 2189.44) rotate(-89.41)"/>
+    <path class="cls-1" d="M1720.46,761.93h0c10.36,68.3-36.6,132.06-104.9,142.43h0s-123.66,18.76-123.66,18.76l-18.76-123.66,123.66-18.76-18.76-123.66,123.66-18.76,18.76,123.66Z"/>
+  </g>
+</svg>
