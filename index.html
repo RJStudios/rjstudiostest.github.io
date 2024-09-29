@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,18 +9,18 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap">
     <title>RJ Studios Official Website</title>
     <link rel="icon" type="image/svg+xml" href="favicon.svg">
 </head>
+
 <body>
     <div class="container">
         <div class="left-section">
             <img src="favicon.svg" alt="RJ Logo" id="pfp">
-            <span class="rjstudios">
+            <div class="rjstudios">
                 <h2 class="poppins-black">Really Janky</h2>
                 <h1 class="poppins-studios">STUDIOS</h1>
-            </span>
+            </div>
             <div class="quick-info">
                 <p>It's not just Janky, it's Really Janky!</p>
                 <button class="poppins-bold asearch" title="Search the internet using aSearch"><a href="https://browse.cgcristi.xyz">Browse via aSearch</a></button>
@@ -29,80 +30,83 @@
 
     <div class="top-section">
         <div class="section-links">
-            <a href="#" onclick="showContent('about')">
+            <a href="#" onclick="showContent('about')" class="poppins-medium">
                 <i class="fa fa-info-circle"></i> About
             </a>
-            <a href="#" onclick="showContent('socials')">
+            <a href="#" onclick="showContent('socials')" class="poppins-medium">
                 <i class="fa fa-share-alt"></i> Members' Socials
             </a>
-            <a href="#" onclick="showContent('contact')">
+            <a href="#" onclick="showContent('contact')" class="poppins-medium">
                 <i class="fa fa-envelope"></i> Contact
             </a>
-            <a href="#" onclick="showContent('projects')">
+            <a href="#" onclick="showContent('projects')" class="poppins-medium">
                 <i class="fa fa-code"></i> Projects
             </a>
-            <a href="#" onclick="showContent('comics')">
+            <a href="#" onclick="showContent('comics')" class="poppins-medium">
                 <i class="fa-solid fa-book-open"></i> Comics
             </a>
         </div>
     </div>
-        <div class="divider"></div>
-        <div class="container">
-            <div class="center-section">
-                <div id="about" class="content active">
-                    <h1>About</h1>
-                    <p>RJ Studios is an indie studio, currently making cool programs. <br>
-                    RJ Studios stands for Really Janky Studios, and as the name suggests, we are a bit Janky... <br>
-                    RJ Studios is consisted of <a href="https://www.instagram.com/andrecon.des/" target="_blank">Andrecon</a>, <a href="https://github.com/realcgcristi" target="_blank">CGCristi</a> and <a href="https://www.youtube.com/@a.arond_official" target="_blank">Arond</a></p>
-                </div>
-                <div id="socials" class="content">
-                    <h1>Members' Socials</h1>
-                    <span id="purplelink">
-                    <p><a href="https://www.instagram.com/andrecon.des/" target="_blank">Andrecon's Instagram</a></p>
-                    <p><a href="https://github.com/realcgcristi" target="_blank">CGCristi's Github</a></p>
-                    <p><a href="https://www.youtube.com/@a.arond_official" target="_blank">Arond's Youtube</a></p>
-                    </span>
-                    <br> <hr> <br>
-                    <h1>Members' Websites</h1>
-                    <span id="greenlink">
-                    <p><a href="https://andrecon.cgcristi.xyz" target="_blank">Andrecon's Website</a></p>
-                    <p><a href="https://cgcristi.xyz" target="_blank">CGCristi's Website</a></p>
-                    <p>Aronds's Website (sorry nothing here, for now)</p>
-                    </span>
-                </div>
-                <div id="contact" class="content">
-                    <h1>Contact</h1>
-                    <span id="greenlink">
-                    <p>Support/Requests: <a href="https://rj-support.cgcristi.xyz">RJ Form</a></p>
-                    <p>Or email us directly at: <a href="mailto:rj-support@cgcristi.xyz">rj-support@cgcristi.xyz</p>
-                    </span>
-                </div>
-                <div id="projects" class="content">
-                    <h1><a href="https://github.com/RJStudios/" target="_blank" title="Redirects to RJ Studios Github">Projects</a></h1>
-                    <div class="items">
-                        <div class="repo-item">
-                            <a href="https://github.com/RJStudios/RJ-Tools-PY" target="_blank">RJ-Tools</a>
-                            <p>A quality-of-life multi-tool</p>
-                        </div> <br>
-                        <div class="repo-item">
-                            <a href="https://github.com/RJStudios/StreamFlare" target="_blank">StreamFlare Terminal / UI</a>
-                            <p>Youtube Video Downloading Tool, that runs in terminal or using User-Interface</p>
-                        </div> <br>
-                        <div class="repo-item">
-                            <a href="https://acloud.spitkov.hu/" target="_blank">aCloud</a>
-                            <p>File and Text Sharing, and URL Shortning Tool<a id="small" href="https://github.com/RJStudios/aCloud" target="_blank">Source Code</a></p>
-                        </div> <br>
-                        <div class="repo-item">
-                            <a href="https://browse.cgcristi.xyz/" target="_blank">aSearch</a>
-                            <p>A simple and private search engine.</p>
-                        </div>
+
+    <div class="divider"></div>
+
+    <div class="container">
+        <div class="center-section">
+            <div id="about" class="content active">
+                <h1 class="poppins-bold">About</h1>
+                <p>RJ Studios is an indie studio, currently making cool programs. <br> RJ Studios stands for Really Janky Studios, and as the name suggests, we are a bit Janky... <br> RJ Studios is consisted of <a href="https://www.instagram.com/andrecon.des/" target="_blank" class="poppins-medium" id="about">Andrecon</a>, <a href="https://github.com/realcgcristi" target="_blank" class="poppins-medium" id="about">CGCristi</a> and <a href="https://www.youtube.com/@a.arond_official" target="_blank" class="poppins-medium" id="about">Arond</a></p>
+            </div>
+            <div id="socials" class="content">
+                <h1 class="poppins-bold">Members' Socials</h1>
+                <span id="purplelink">
+                    <p><a href="https://www.instagram.com/andrecon.des/" target="_blank" class="poppins-medium">Andrecon's Instagram</a></p>
+                    <p><a href="https://github.com/realcgcristi" target="_blank" class="poppins-medium">CGCristi's Github</a></p>
+                    <p><a href="https://www.youtube.com/@a.arond_official" target="_blank" class="poppins-medium">Arond's Youtube</a></p>
+                </span>
+                <br>
+                <hr>
+                <br>
+                <h1 class="poppins-bold">Members' Websites</h1>
+                <span id="greenlink">
+                    <p><a href="https://andrecon.cgcristi.xyz" target="_blank" class="poppins-medium">Andrecon's Website</a></p>
+                    <p><a href="https://cgcristi.xyz" target="_blank" class="poppins-medium">CGCristi's Website</a></p>
+                    <p>Arond's Website (sorry nothing here, for now)</p>
+                </span>
+            </div>
+            <div id="contact" class="content">
+                <h1 class="poppins-bold">Contact</h1>
+                <span id="greenlink">
+                    <p>Support/Requests: <a href="https://rj-support.cgcristi.xyz" class="poppins-medium">RJ Form</a></p>
+                    <p>Or email us directly at: <a href="mailto:rj-support@cgcristi.xyz" class="poppins-medium">rj-support@cgcristi.xyz</a></p>
+                </span>
+            </div>
+            <div id="projects" class="content">
+                <h1 class="poppins-bold"><a href="https://github.com/RJStudios/" target="_blank" title="Redirects to RJ Studios Github">Projects</a></h1>
+                <div class="items">
+                    <div class="repo-item">
+                        <a href="https://github.com/RJStudios/RJ-Tools-PY" target="_blank">RJ-Tools</a>
+                        <p>A quality-of-life multi-tool</p>
+                    </div>
+                    <br>
+                    <div class="repo-item">
+                        <a href="https://github.com/RJStudios/StreamFlare" target="_blank">StreamFlare Terminal / UI</a>
+                        <p>YouTube Video Downloading Tool, that runs in terminal or using User-Interface</p>
+                    </div>
+                    <br>
+                    <div class="repo-item">
+                        <a href="https://acloud.spitkov.hu/" target="_blank">aCloud</a>
+                        <p>File and Text Sharing, and URL Shortening Tool <a id="small" href="https://github.com/RJStudios/aCloud" target="_blank">Source Code</a></p>
+                    </div>
+                    <br>
+                    <div class="repo-item">
+                        <a href="https://browse.cgcristi.xyz/" target="_blank">aSearch</a>
+                        <p>A simple and private search engine.</p>
                     </div>
                 </div>
-                <div id="comics" class="content">
-                    <h1>Comics</h1>
-                    <p id="subtitle">Read Pablo's Very Normal Adventure, right here, right now! <br>
-                    Click on a comic to open it full-screen. Hover over it to show its title. <br>
-                    If you see comics covered in outlines, the comics are connected / is a comic with multiple pages</p>
+            </div>
+            <div id="comics" class="content">
+                <h1 class="poppins-bold">Comics</h1>
+                <p id="subtitle">Read Pablo's Very Normal Adventure, right here, right now! <br> Click on a comic to open it full-screen. Hover over it to show its title. <br> If you see comics covered in outlines, the comics are connected / is a comic with multiple pages</p>
                     <div id="images" class="items">
                         <a href="/comicsfull/pablobomb.png" target="_blank" title="Pablo and the B O M B"><img src="comics/pablobomb.png"></a>
                         <a href="/comicsfull/pablospecies.png" target="_blank" title="Pablo's Species"><img src="comics/pablospecies.png"></a> <br>
